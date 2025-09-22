@@ -1,1 +1,11 @@
-sudo mount -o nouuid /dev/nvme1n1p1 /mnt/backup/
+##how to mount
+sh - sudo mount -o nouuid /dev/nvme1n1p1 /mnt/backup/
+
+
+chack mount 
+
+sh - df -h
+
+##how to unmount EBS
+
+sudo umount -l /mnt/backup
